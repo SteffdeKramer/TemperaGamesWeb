@@ -53,22 +53,7 @@
         </div>
       </div>
     </nav>
-
     <header class="masthead text-center text-white d-flex">
-      <!--<div class="container my-auto">-->
-        <!--<div class="row">-->
-          <!--<div class="col-lg-10 mx-auto">-->
-            <!--<h1 class="text-uppercase">-->
-              <!--<strong>Your Favorite Source of Free Bootstrap Themes</strong>-->
-            <!--</h1>-->
-            <!--<hr>-->
-          <!--</div>-->
-          <!--<div class="col-lg-8 mx-auto">-->
-            <!--<p class="text-faded mb-5">Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>-->
-            <!--<a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>-->
-          <!--</div>-->
-        <!--</div>-->
-      <!--</div>-->
     </header>
 
     <section class="bg-primary" id="about">
@@ -136,7 +121,6 @@
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
-                    Category
                   </div>
                   <div class="project-name">
                     Switch & Ditch
@@ -151,7 +135,6 @@
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
-                    Category
                   </div>
                   <div class="project-name">
                     Project Name
@@ -166,7 +149,6 @@
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
-                    Category
                   </div>
                   <div class="project-name">
                     Tempera Games
@@ -181,7 +163,6 @@
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
-                    Category
                   </div>
                   <div class="project-name">
                     Project Name
@@ -196,7 +177,6 @@
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
-                    Category
                   </div>
                   <div class="project-name">
                     Project Name
@@ -211,7 +191,6 @@
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
-                    Category
                   </div>
                   <div class="project-name">
                     Project Name
@@ -223,6 +202,16 @@
         </div>
       </div>
     </section>
+
+    <div>
+        <form action="sendmail.php" method="post">
+            First Name: <input type="text" name="first_name"><br>
+            Last Name: <input type="text" name="last_name"><br>
+            Email: <input type="text" name="email"><br>
+            Message:<br><textarea rows="5" name="message" cols="30"></textarea><br>
+            <input type="submit" name="submit" value="Submit">
+        </form>
+    </div>
 
     <section class="bg-dark text-white">
       <div class="container text-center">
