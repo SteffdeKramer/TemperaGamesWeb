@@ -324,3 +324,13 @@ header.masthead p {
     -webkit-box-shadow: 0 0 0 .2rem rgba(240, 95, 64, .5) !important;
     box-shadow: 0 0 0 .2rem rgba(240, 95, 64, .5) !important
 }
+
+
+.form-popper {
+    max-width: 800px;
+    height: 700px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+}
