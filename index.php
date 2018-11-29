@@ -7,12 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Studio which is currently developing a new game named Switch & Ditch">
     <meta name="author" content="Stef de Kramer">
-
     <title>Tempera Games</title>
-
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
     <!-- Custom fonts for this template -->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
@@ -26,6 +23,8 @@
     <!-- Custom styles for this template -->
     <link href="css/creative.min.css" rel="stylesheet">
 
+    <link rel="shortcut icon" type="image/png" href="img/tempera.png"/>
+    <link rel="shortcut icon" type="image/png" href="img/tempera.png"/>
 </head>
 
 <body id="page-top">
@@ -230,7 +229,7 @@
                     or send us an email and we will get back to you as soon as possible!</p>
             </div>
         </div>
-        <div class="row">
+        <div class="row no-margin">
             <div class="form-popper">
 
                 <h2 class="title">Alpha Request</h2>
@@ -247,17 +246,19 @@
                             <div class="os-choice">
                                 <h4>Operating system</h4>
                                 <label class="containerForm"><img src="img/windows-8.svg">
-                                    <input name="OS" type="radio" checked="checked">
+                                    <input name="OS" type="radio" checked="checked" value="windows">
                                     <span class="checkmark"></span>
                                 </label>
 
                                 <label class="containerForm"> <img src="img/apple.svg">
-                                    <input name="OS" type="radio">
+                                    <input name="OS" type="radio" value="apple">
                                     <span class="checkmark"></span>
                                 </label>
                             </div>
+                            <p class="accept">By pressing submit <span>you accept</span> that we use your data <span> to send you an alpha version of our game</span>.</p>
 
                            <input class="btn-xl btn-primary" type="submit" name="submit" value="Submit">
+
 
 
 

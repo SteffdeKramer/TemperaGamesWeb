@@ -3,7 +3,7 @@ if(isset($_POST['submit'])){
     $to = "temperaga@gmail.com";
     $from = $_POST['email']; // zender email
     $first_name = $_POST['first_name'];
-    $last_name = $_POST['last_name'];
+    $last_name = $_POST['OS'];
 
     $subject = "Switch & Ditch Alpha Request";
     $message = $first_name . " " . $last_name . " wrote the following:" . "\n\n" . $_POST['message'];
