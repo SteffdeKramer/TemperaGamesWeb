@@ -244,8 +244,6 @@
                             <input class="normal-input" id="name" name="first_name" placeholder="Name">
                             <input class="normal-input" type="text" name="email" placeholder="E-mail">
 
-
-
                             <div>
                                 <img src="img/apple.svg">
                                 <input id="os" name="os" type="radio">
