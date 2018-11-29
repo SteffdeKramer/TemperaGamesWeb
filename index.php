@@ -235,33 +235,52 @@
 
                 <h2 class="title">Alpha Request</h2>
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-12 col-md-6">
 
                     </div>
-                    <div class="col-6">
+                    <div class="col-12 col-md-6">
                         <form id="sendmailForm" action="sendmail.php" method="post">
 
                             <input class="normal-input" id="name" name="first_name" placeholder="Name">
                             <input class="normal-input" type="text" name="email" placeholder="E-mail">
 
-                            <div>
-                                <img src="img/apple.svg">
-                                <input id="os" name="os" type="radio">
+                            <div class="os-choice">
+                                <h4>Operating system</h4>
+                                <label class="containerForm"><img src="img/windows-8.svg">
+                                    <input name="OS" type="radio" checked="checked">
+                                    <span class="checkmark"></span>
+                                </label>
+
+                                <label class="containerForm"> <img src="img/apple.svg">
+                                    <input name="OS" type="radio">
+                                    <span class="checkmark"></span>
+                                </label>
                             </div>
-                            <div>
-                                <img src="img/apple.svg">
-                                <input id="os" name="os" type="radio">
-                            </div>
-                            <input id="os" name="os" type="radio">
-                            <input id="os" name="os" type="radio">
-                            <input id="os" name="os" type="radio">
+
+                           <input class="btn-xl btn-primary" type="submit" name="submit" value="Submit">
+
+
+
+<!--                            <div>-->
+<!--                                <img src="img/apple.svg">-->
+<!--                                <input id="os" name="os" type="radio">-->
+<!--                            </div>-->
+<!--                            <div>-->
+<!--                                <img src="img/apple.svg">-->
+<!--                                <input id="os" name="os" type="radio">-->
+<!--                            </div>-->
+<!---->
+<!--                            -->
+<!--                            <input id="os" name="os" type="radio">-->
+<!--                            <input id="os" name="os" type="radio">-->
+<!--                            <input id="os" name="os" type="radio">-->
 
 <!---->
 <!--                            First Name: <input type="text" name="first_name"><br>-->
 <!--                            Last Name: <input type="text" name="last_name"><br>-->
 <!--                            Email: <input type="text" name="email"><br>-->
 <!--                            Message:<br><textarea rows="5" name="message" cols="30"></textarea><br>-->
-<!--                            <input type="submit" name="submit" value="Submit">-->
+
                         </form>
                     </div>
                 </div>

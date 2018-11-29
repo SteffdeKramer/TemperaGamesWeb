@@ -40,7 +40,7 @@ a:hover {
 
 
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, input {
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif
 }
 
@@ -311,13 +311,17 @@ header.masthead p {
 }
 
 .btn-primary {
-    background-color: #f05f40;
-    border-color: #f05f40
+    background-color: #f7941d;
+    border-color: #f7941d;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
     color: #fff;
-    background-color: #ee4b28 !important
+    background-color: #f7941d !important
 }
 
 .btn-primary:active, .btn-primary:focus {
@@ -326,11 +330,11 @@ header.masthead p {
 }
 
 
-.form-popper {
-    max-width: 800px;
-    height: 700px;
-    border-radius: 8px;
-    -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
-}
+/*.form-popper {*/
+    /*max-width: 800px;*/
+    /*height: 700px;*/
+    /*border-radius: 8px;*/
+    /*-webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);*/
+    /*-moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);*/
+    /*box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);*/
+/*}*/
