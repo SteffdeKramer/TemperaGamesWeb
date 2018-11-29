@@ -6,7 +6,7 @@ if(isset($_POST['submit'])){
     $last_name = $_POST['OS'];
 
     $subject = "Switch & Ditch Alpha Request";
-    $message = $first_name . " " . "Request to get the alpha version" . "\n\n";
+    $message = $first_name . " " . "Request to get the alpha version on" . $last_name . "\n\n";
     $headers = array("From: " . $from, "X-Mailer: PHP/" . PHP_VERSION);
     $headers = implode("\r\n", $headers);
 
