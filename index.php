@@ -214,8 +214,9 @@
 <section class="bg-dark text-white">
     <div class="container text-center">
         <h2 class="mb-4">Switch & Ditch</h2>
-        <a class="btn btn-light btn-xl sr-button" href="http://startbootstrap.com/template-overviews/creative/">Want to
-            know more?</a>
+        <p>Switch & Ditch is a party game made to have fun with your friends. You want to have all the attention right? In Switch & Ditch you have to stay in sight of the camera at all times, if you don't you lose. Push others out of sight to win! </p>
+        <a class="btn btn-light btn-xl sr-button" href="http://startbootstrap.com/template-overviews/creative/">Want to know more?</a>
+
     </div>
 </section>
 
@@ -223,9 +224,9 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 mx-auto text-center">
-                <h2 class="section-heading">Do you want to know more?</h2>
+                <h2 class="section-heading">Want to play the early alpha or have any questions?</h2>
                 <hr class="my-4">
-                <p class="mb-5">Do you have any questions or do you just want to know more? That's great! Give us a call
+                <p class="mb-5">If you want to try the alpha fill in the form, or of you have any questions / want to know more? That's great! Give us a call
                     or send us an email and we will get back to you as soon as possible!</p>
             </div>
         </div>
@@ -242,7 +243,6 @@
 
                             <input class="normal-input" id="name" name="first_name" placeholder="Name">
                             <input class="normal-input" type="text" name="email" placeholder="E-mail">
-
                             <div class="os-choice">
                                 <h4>Operating system</h4>
                                 <label class="containerForm"><img src="img/windows-8.svg">
@@ -257,31 +257,7 @@
                             </div>
                             <p class="accept">By pressing submit <span>you accept</span> that we use your data <span> to send you an alpha version of our game</span>.</p>
 
-                           <input class="btn-xl btn-primary" type="submit" name="submit" value="Submit">
-
-
-
-
-<!--                            <div>-->
-<!--                                <img src="img/apple.svg">-->
-<!--                                <input id="os" name="os" type="radio">-->
-<!--                            </div>-->
-<!--                            <div>-->
-<!--                                <img src="img/apple.svg">-->
-<!--                                <input id="os" name="os" type="radio">-->
-<!--                            </div>-->
-<!---->
-<!--                            -->
-<!--                            <input id="os" name="os" type="radio">-->
-<!--                            <input id="os" name="os" type="radio">-->
-<!--                            <input id="os" name="os" type="radio">-->
-
-<!---->
-<!--                            First Name: <input type="text" name="first_name"><br>-->
-<!--                            Last Name: <input type="text" name="last_name"><br>-->
-<!--                            Email: <input type="text" name="email"><br>-->
-<!--                            Message:<br><textarea rows="5" name="message" cols="30"></textarea><br>-->
-
+                            <input class="btn-xl btn-primary" type="submit" name="submit" value="Submit">
                         </form>
                     </div>
                 </div>
@@ -295,7 +271,7 @@
             <div class="col-lg-4 mr-auto text-center">
                 <i class="fas fa-envelope fa-3x mb-3 sr-contact-2"></i>
                 <p>
-                    <a href="mailto:info@temperagames.com">9info@temperagames.com</a>
+                    <a href="mailto:info@temperagames.com">info@temperagames.com</a>
                 </p>
             </div>
         </div>

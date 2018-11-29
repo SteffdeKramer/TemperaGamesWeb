@@ -10,11 +10,24 @@
     -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
     margin-bottom: 3rem!important;
+    background-color: white;
+    margin-top: 25px;
+    padding-top: 25px;
+
 }
 
 .form-popper .row {
     margin-left: 0;
     margin-right: 0;
+}
+
+.form-popper h4, .form-popper h2 {
+    color: black;
+}
+
+.form-popper h2 {
+    color: black;
+    margin-bottom: 25px;
 }
 
 #contact .title {
@@ -119,6 +132,7 @@
 .accept {
     font-weight: 100;
     font-style: oblique;
+    color: black;
 }
 
 .accept span {
