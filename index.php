@@ -46,7 +46,7 @@
                     <a class="nav-link js-scroll-trigger" href="#services">Our Team</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                    <a class="nav-link js-scroll-trigger" href="#contact">Sign Up</a>
                 </li>
             </ul>
         </div>
@@ -83,15 +83,15 @@
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box mt-5 mx-auto">
                     <i class="fas fa-4x fa-pencil-ruler text-primary mb-3 sr-icon-4"></i>
-                    <h3 class="mb-3">Designers</h3>
+                    <h3 class="mb-3 broadway">Designers</h3>
                     <p class="text-muted mb-0">Gameplay has to be <i>engaging</i> and, most importantly, <i>fun</i>.
                         With their passion our designers strive to deliver this and more to our players!</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box mt-5 mx-auto">
-                    <i class="fas fa-4x fa-gem text-primary mb-3 sr-icon-1"></i>
-                    <h3 class="mb-3">Artists</h3>
+                    <i class="fas fa-4x fa-paint-brush text-primary mb-3 sr-icon-1"></i>
+                    <h3 class="mb-3 broadway">Artists</h3>
                     <p class="text-muted mb-0">With fun and engaging gameplay we need a beautiful world to be engaged
                         in. We couldn't do this without our strong and experienced team of artists.</p>
                 </div>
@@ -99,15 +99,15 @@
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box mt-5 mx-auto">
                     <i class="fas fa-4x fa-code text-primary mb-3 sr-icon-3"></i>
-                    <h3 class="mb-3">Developers</h3>
+                    <h3 class="mb-3 broadway">Developers</h3>
                     <p class="text-muted mb-0">With a beautiful world and fun gameplay we need a team to <i>make it all
                             work</i>. Our developers work day and night to ensure that you can play our game!</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box mt-5 mx-auto">
-                    <i class="fas fa-4x fa-paper-plane text-primary mb-3 sr-icon-2"></i>
-                    <h3 class="mb-3">Marketing</h3>
+                    <i class="fas fa-4x fa-chart-line text-primary mb-3 sr-icon-2"></i>
+                    <h3 class="mb-3 broadway">Marketing</h3>
                     <p class="text-muted mb-0">Our marketing team make sure you and all your friends know us, <i>Tempera
                             Games</i>!</p>
                 </div>
@@ -167,7 +167,7 @@
 
 <section class="bg-dark text-white">
     <div class="container text-center">
-        <h2 class="mb-4">Switch & Ditch</h2>
+        <h2 class="mb-4 section-heading text-white">Switch & Ditch</h2>
         <p>Switch & Ditch is a party game made to have fun with your friends. You want to have all the attention right? In Switch & Ditch you have to stay in sight of the camera at all times, if you don't you lose. Push others out of sight to win! </p>
         <a class="btn btn-light btn-xl sr-button js-scroll-trigger" href="#contact">Want to know more?</a>
 

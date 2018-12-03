@@ -1,3 +1,21 @@
+@font-face {
+  font-family: "Broadway";
+  src: url("fonts/BroadwayFlat.ttf") format("ttf"),
+}
+
+.broadway{
+  font-family: 'Broadway';
+  font-size: 30px;
+  color: #f7941d;
+  /* border-bottom: 3px dotted #f7941d; */
+}
+
+.section-heading{
+  font-family: 'Broadway';
+  font-size: 55px;
+  color: #f7941d;
+}
+
 .form-popper {
     max-width: 800px;
     width: 100%;
