@@ -140,8 +140,23 @@
     font-weight: normal;
 }
 
-@media (max-width: 576px) {
+.envelope{
+  width: 50%;
+  max-width: 185px;
+  -ms-transform: rotate(-30deg); /* IE 9 */
+  -webkit-transform: rotate(-30deg); /* Safari */
+  transform: rotate(-30deg);
+  margin-left: 25%;
+  filter: color
+}
 
+@media (max-width: 768px){
+  .envelope{
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 576px) {
     .no-margin {
         margin-left: 0;
         margin-right: 0;
@@ -149,7 +164,6 @@
 }
 
 @media (max-width: 767px) {
-
     .form-popper {
         text-align: center;
     }
