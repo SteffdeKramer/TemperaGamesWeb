@@ -1,12 +1,12 @@
 <?php
 if(isset($_POST['submit'])) {
-    $to = "0908034@hr.nl";
+    $to = "info@temperagames.com";
     $from = $_POST['email']; // zender email
     $first_name = $_POST['first_name'];
     $last_name = $_POST['OS'];
 
     $subject = "Switch & Ditch Alpha Request";
-    $message = $first_name . " " . "Request to get the alpha version on " . $last_name . "\n\n";
+    $message = $first_name . " " . "Requests to get the alpha version on " . $last_name . "\n\n";
     $headers = array("From: " . $from, "X-Mailer: PHP/" . PHP_VERSION);
     $headers = implode("\r\n", $headers);
 

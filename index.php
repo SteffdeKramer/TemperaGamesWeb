@@ -116,11 +116,60 @@
     </div>
 </section>
 
+<section class="p-0" id="portfolio">
+    <div class="container-fluid p-0">
+        <div class="row no-gutters popup-gallery">
+            <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box" href="img/portfolio/thumbnails/stairs_render3.png">
+                    <img class="img-fluid" src="img/portfolio/thumbnails/stairs_render3.png" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                            </div>
+                            <div class="project-name">
+                                Switch & Ditch - Concept Art
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <a class="portfolio-box" href="img/portfolio/thumbnails/groupPic.jpg">
+                <img class="img-fluid" src="img/portfolio/thumbnails/groupPic.jpg" alt="">
+                <div class="portfolio-box-caption">
+                  <div class="portfolio-box-caption-content">
+                    <div class="project-category text-faded">
+                    </div>
+                    <div class="project-name">
+                      Tempera Games
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <a class="portfolio-box" href="img/portfolio/thumbnails/winter_globe.png">
+                <img class="img-fluid" src="img/portfolio/thumbnails/winter_globe.png" alt="">
+                <div class="portfolio-box-caption">
+                  <div class="portfolio-box-caption-content">
+                    <div class="project-category text-faded">
+                    </div>
+                    <div class="project-name">
+                      Switch & Ditch - Concept Art
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="bg-dark text-white">
     <div class="container text-center">
         <h2 class="mb-4">Switch & Ditch</h2>
         <p>Switch & Ditch is a party game made to have fun with your friends. You want to have all the attention right? In Switch & Ditch you have to stay in sight of the camera at all times, if you don't you lose. Push others out of sight to win! </p>
-        <a class="btn btn-light btn-xl sr-button" href="http://startbootstrap.com/template-overviews/creative/">Want to know more?</a>
+        <a class="btn btn-light btn-xl sr-button js-scroll-trigger" href="#contact">Want to know more?</a>
 
     </div>
 </section>
