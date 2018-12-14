@@ -168,7 +168,7 @@
 <section class="bg-dark text-white">
     <div class="container text-center">
         <h2 class="mb-4 section-heading text-white">Switch & Ditch</h2>
-        <p>Switch & Ditch is a party game made to have fun with your friends. You want to have all the attention right? In Switch & Ditch you have to stay in sight of the camera at all times, if you don't you lose. Push others out of sight to win! </p>
+        <p>Switch & Ditch is a party game made to have fun with your friends. You want to have all the attention, don't you? In Switch & Ditch you have to stay in sight of the camera at all times else you <strong>will</strong> lose. Push others out of sight to win! </p>
         <a class="btn btn-light btn-xl sr-button js-scroll-trigger" href="#contact">Want to know more?</a>
 
     </div>
@@ -180,13 +180,13 @@
             <div class="col-lg-8 mx-auto text-center">
                 <h2 class="section-heading">Sign me up!</h2>
                 <hr class="my-4">
-                <p class="mb-5">If you're interested in trying out the early alpha of Switch & Ditch you can send a request by using the form below.</p>
+                <p class="mb-5">If you're interested in trying out the early closed beta of Switch & Ditch you can send a request by using the form below.</p>
             </div>
         </div>
         <div class="row no-margin">
             <div class="form-popper">
 
-                <h2 class="title">Alpha Request</h2>
+                <h2 class="title">Beta Request</h2>
                 <div class="row align-items-center">
                     <div class="col-12 col-md-6">
                       <img class="envelope" src="img/envelope_sent.png" />
@@ -208,7 +208,7 @@
                                     <span class="checkmark"></span>
                                 </label>
                             </div>
-                            <p class="accept">By pressing submit <span>you accept</span> that we will only use your information <span> to send you an alpha version of our game</span>.</p>
+                            <p class="accept">By pressing submit <span>you accept</span> that we will only use your information <span> to send you a beta version of our game</span>.</p>
 
                             <input class="btn-xl btn-primary" type="submit" name="submit" value="Submit">
                         </form>
