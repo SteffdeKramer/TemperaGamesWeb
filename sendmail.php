@@ -5,13 +5,13 @@ if(isset($_POST['submit'])) {
     $first_name = $_POST['first_name'];
     $last_name = $_POST['OS'];
 
-    $subject = "Switch & Ditch Alpha Request";
-    $message = $first_name . " " . "Requests to get the alpha version on " . $last_name . "\n\n";
+    $subject = "Switch & Ditch Beta Request";
+    $message = $first_name . " " . "Requests to get the beta version on " . $last_name . "\n\n";
     $headers = array("From: " . $from, "X-Mailer: PHP/" . PHP_VERSION);
     $headers = implode("\r\n", $headers);
 
-    $subject2 = "Copy Of Your Switch & Ditch Alpha Request Submission";
-    $message2 = "Dear " . $first_name . "\n\n" . "You have requested an alpha version of our game. You will hear from us shortly " . $to;
+    $subject2 = "Copy Of Your Switch & Ditch Beta Request Submission";
+    $message2 = "Dear " . $first_name . "\n\n" . "You have requested a beta version of our game. You will hear from us shortly " . $to;
     $headers2 = "From: " . $to;
 
     mail($to, $subject, $message, $headers);
