@@ -10,6 +10,10 @@
   /* border-bottom: 3px dotted #f7941d; */
 }
 
+.col-lg-8 img{
+  width: 100%;
+}
+
 .section-heading{
   font-family: 'Broadway';
   font-size: 55px;
